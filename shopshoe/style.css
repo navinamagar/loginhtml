@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box {
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 300px;
+    border: 2px solid silver;
+}
+
+.box .shoes img {
+    padding: 10px;
+    width: 300;
+    height: 200px;
+    display: flex;
+    margin: 5px 10px;
+}
+
+.box .similarshoes {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    border-color: aliceblue;
+}
+
+.box .similarshoes img {
+    height: 100%px;
+    width: 100%;
+}
+
+.box .aboutshoes .h1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+font-weight: bold;
+}
+.box .aboutshoes .h2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.box .aboutshoes .price {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+.box .aboutshoes .rating  {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aqua;
+    padding: 0;
+
+}
+.box .aboutshoes .rating .rate {
+    color: pink;
+}
+.box .aboutshoes .h3 {
+    font-weight: bold;
+}
+.box .aboutshoes .numbers {
+    width: 100%;
+    word-spacing: 20px;
+    padding: 10px;
+}
+.box .aboutshoes .conform {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+.box .aboutshoes .conform button {
+    background-color: rgb(20, 225, 252) ;
+    border-color:  rgb(20, 225, 252);
+    padding: 5px 20px;
+    margin: 10px;
+}

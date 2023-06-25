@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 254, 255);
+}
+.fullcard {
+box-shadow: 0px 0px 10px rgb(80, 76, 76);
+    border: 2px rgb(95, 92, 92);
+    border-radius: 5px;
+    width: 250px;
+}
+
+.fullcard .shopingcard .image img{
+width: 100%;
+border-radius: 5px;
+}
+
+.fullcard .shopingcard .content {
+    display: flex;
+    width: 100%;
+   
+}
+.fullcard .shopingcard .content .dressname {
+    width: 50%;
+    font-weight: bold;
+    margin: 10px;
+}
+.fullcard .shopingcard .content .dressprice {
+    width: 50%;
+    text-align: right;
+    margin: 10px;
+}
+.fullcard .shopingcard .content .dressprice .price {
+    color: red;
+    font-weight: bolder;
+    font-size: larger;
+}
+.fullcard .shopingcard .content .dressprice .discountprice {
+    font-size: small;
+}
+.fullcard .shopingcard .choose {
+    width: 100%;
+    display: flex;
+}
+.fullcard .shopingcard .choose .choosecolor {
+    width: 50%;
+    margin: 10px;
+}
+.fullcard .shopingcard .choose .choosecolor .white {
+ color: rgb(99, 95, 95);
+ 
+}
+.fullcard .shopingcard .choose .choosecolor .red {
+    color: red; 
+   }
+   .fullcard .shopingcard .choose .choosecolor .blue {
+    color: blue;
+   }
+   .fullcard .shopingcard .choose .size {
+    width: 50%;
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 10px;
+
+   }  
+   .fullcard .shopingcard .choose .size .b1{
+    height: 15px;
+    width: 25px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 3px 7px;
+   }
+   .fullcard .shopingcard .choose .size .b2{
+    height: 15px;
+    width: 25px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px 3px;
+   }
+   .fullcard .shopingcard .choose .size .b3{
+    height: 15px;
+    width: 25px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 3px 5px;
+   }
+   .fullcard .shopingcard .footer {
+    width: 100%;
+    display: flex;
+   }
+   .fullcard .shopingcard .footer .rating {
+    width: 50%;
+    margin: 5px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 20px;
+   }
+   .fullcard .shopingcard .footer .optiontobuy {
+    width: 50%;
+    text-align: right;
+    color: purple;
+font-weight: bold;
+margin-right: 10px;
+margin-top: 9px;
+   }
+.coupen {
+margin-top: 20px;
+    box-shadow: 0px 0px 10px rgb(80, 76, 76);
+    border: 2px rgb(95, 92, 92);
+    border-radius: 15px;
+    width: 250px;
+display: flex;   
+}
+.coupen .dayandid {
+    width: 65%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    
+}
+.coupen .dayandid .coupenid {
+    color: red;
+}
+.coupen .discount {
+    width: 35%;
+    background-color: purple;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    
+}
+.coupen .discount discountpercent {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+

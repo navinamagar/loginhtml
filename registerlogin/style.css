@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    box-sizing: border-box;
+    min-height: 100vh;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fullpage {
+    margin-left: 15px;
+    border: 2px solid grey;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+background-color:#ad60d7;
+box-shadow: 0px 0px 20px rgb(195, 219, 219);
+}
+
+.fullpage .h1 {
+    font-size: larger;
+    font-weight: bolder;
+    margin-bottom: 18px;
+    color: white;
+
+}
+
+.fullpage .name {
+    margin: 10px 1px;
+}
+.fullpage .name ::placeholder{
+ color: white;
+}
+.fullpage .name input, .fullpage .password input , .fullpage .password1 input {
+    margin: 10px 1px;
+    border: none;
+    outline:none;
+    border-bottom: 2px solid white;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.fullpage .password {
+    margin: 10px 1px;
+}
+.fullpage .password ::placeholder {
+    color: white;
+}
+.fullpage .password1 ::placeholder {
+    color: white;
+}
+.fullpage .submit {
+    border: 2px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+.fullpage .submit button {
+    border: 2px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+    color: rgb(153, 31, 143);
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 689px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    .fullpage {
+        margin: 15px;
+    }
+}
+@media only screen and (max-width: 223px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    .fullpage {
+        width: 150px;
+    }
+}

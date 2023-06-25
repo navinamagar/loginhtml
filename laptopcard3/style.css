@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+*{
+    padding:0; 
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+
+body {
+background-color: antiquewhite;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.card {
+    border: 2px solid white;
+background-color: white;
+    display: flex;
+    width: 1000px;
+}
+.card .first {
+    width: 20%;
+}
+.card .first img {
+    height: 100%;
+    width: 100%;
+}
+.card .second {
+width: 60%;
+}
+.card .second .title {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight:bolder;
+}
+.card .second .footer {
+    margin-bottom: 5px;
+}
+.card .second .button {
+    margin: 15px 0px;
+}
+.card .second .button .button1 {
+background-color: blue;
+color: white;
+border-color: blue;
+padding: 4px 10px;
+}
+.card .second .button .button1:hover{
+    background-color: brown;
+    border-color: brown;
+}
+.card .second .button .button2 {
+    background-color: rgb(247, 69, 69);
+    color: white;
+    border-color: rgb(247, 69, 69);
+    padding: 4px 10px;
+}
+.card .second .button .button2:hover{
+    background-color: brown;
+    border-color: brown;
+}
+.card .second .paragraph {
+    margin-bottom: 15px;
+font-weight: bold;
+}
+.card .second .footer {
+    font-weight: bold;
+}
+.card .second .footer b {
+color: blue;
+}
+.card .third {
+width: 20%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.card .price {
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.card .rating {
+    margin-bottom: 10px;
+    color: rgb(204, 163, 30);
+}
+.card .reviews {
+    font-size: 15px;
+    font-weight: bold;
+margin-bottom: 10px;
+}
+
+.card .button3 button {
+    color: white;
+background-color: blue;
+padding: 4px 8px;
+border-color: blue;
+}
+.card .button3 button:hover{
+    background-color: brown;
+    border-color:bro;
+}
+
+.card .third .rating .rate {
+    color: brown;
+}
